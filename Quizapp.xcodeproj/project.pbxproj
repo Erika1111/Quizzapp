@@ -13,6 +13,7 @@
 		FC8350BC1E2E598B00A9D63D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8350BA1E2E598B00A9D63D /* Main.storyboard */; };
 		FC8350BE1E2E598B00A9D63D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC8350BD1E2E598B00A9D63D /* Assets.xcassets */; };
 		FC8350C11E2E598B00A9D63D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8350BF1E2E598B00A9D63D /* LaunchScreen.storyboard */; };
+		FC8350CA1E2E5B5B00A9D63D /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8350C91E2E5B5B00A9D63D /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		FC8350BD1E2E598B00A9D63D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC8350C01E2E598B00A9D63D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC8350C21E2E598B00A9D63D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC8350C81E2E5B5B00A9D63D /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		FC8350C91E2E5B5B00A9D63D /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,8 @@
 		FC8350A51E2E598B00A9D63D = {
 			isa = PBXGroup;
 			children = (
+				FC8350C81E2E5B5B00A9D63D /* Model.h */,
+				FC8350C91E2E5B5B00A9D63D /* Model.m */,
 				FC8350B01E2E598B00A9D63D /* Quizapp */,
 				FC8350AF1E2E598B00A9D63D /* Products */,
 			);
@@ -153,6 +158,7 @@
 				FC8350B91E2E598B00A9D63D /* ViewController.m in Sources */,
 				FC8350B61E2E598B00A9D63D /* AppDelegate.m in Sources */,
 				FC8350B31E2E598B00A9D63D /* main.m in Sources */,
+				FC8350CA1E2E5B5B00A9D63D /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
